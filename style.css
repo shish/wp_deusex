@@ -1,0 +1,142 @@
+/*  
+Theme Name: Deus Ex
+Theme URI: http://shish.is-a-geek.net/
+Description: Shish's Theme, based on the game Deus Ex's computer UI
+Version: 0.1
+Author: Shish
+Author URI: http://shish.is-a-geek.net/
+
+	Deus Ex 0.1
+	 http://shish.is-a-geek.net/
+
+	This theme was designed and built by Shish,
+	whose blog you will find at http://shish.is-a-geek.net/
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*/
+
+H1, H2 {text-align: center;}
+H2 {font-size: 14px;}
+H1 A, H2 A, H3 A {text-decoration: none;}
+A, BODY {color: #FFF;}
+BODY {background: black url("./images/background_light.png") fixed; font-family: sans-serif;}
+IMG {border: 0px;}
+#title {background: url("./images/background.png") fixed; border: 1px solid #666; letter-spacing: 8px;}
+.sidebar H2 {background: url("./images/thintitle.png") no-repeat;}
+.sidebar UL {background: url("./images/background.png") fixed;}
+.box {background: url("./images/title.png") top left no-repeat;}
+.box .boxbody {background: url("./images/background.png") fixed;}
+.box .boxfoot A {background: url("./images/button.png") no-repeat;}
+.box .boxfoot A:active {background: url("./images/button_a.png") no-repeat;}
+
+
+
+.sidebar {
+	margin-top: 20px;
+	display: block;
+	width: 128px;
+	padding: 1px;
+	text-align: center;
+	font-size: 0.75em;
+}
+.sidebar LI {
+	list-style: none;
+}
+.sidebar H2 {
+	height: 17px;
+	color: #CCC;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.sidebar UL {
+	list-style: none;
+	margin-top: 3px;
+	border: 1px solid #999;
+	padding: 0px;
+}
+.sidebar UL LI {
+	color: #999;
+	display: block;
+	text-decoration: none;
+}
+.sidebar UL LI A {
+	color: #999;
+	text-decoration: none;
+}
+.sidebar UL LI A:hover {
+	color: #BBB;
+}
+.sidebar UL HR {
+	margin: 0px;
+}
+.sidebar UL UL {
+	list-style: none;
+	margin-top: 0px;
+	border: none;
+	padding: 0px;
+	padding-left: 64px;
+	text-align: left;
+}
+
+
+
+#content {
+	margin-left: 148px;
+	margin-right: 148px;
+	padding: 3px;
+}
+
+
+
+.box {
+	margin-top: 20px;
+	width: 98%;
+	font-size: 0.8em;
+}
+.box H3 {
+	margin: 0px;
+	padding: 3px;
+	padding-top: 4px;
+	margin-left: 20px;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+}
+.box .boxbody {
+	border: 1px solid #666;
+	display: block;
+	margin-left: 10px;
+	padding: 5px;
+	min-height: 50px;
+}
+.box .boxfoot {
+	display: block;
+	margin-left: 10px;
+	height: 24px;
+}
+.box .boxfoot A {
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	float: right;
+	color: black;
+	text-decoration: none;
+	width: 128px;
+	height: 21px;
+	margin: 2px;
+	padding-top: 3px;
+	text-align: center;
+}
+
+
+
+#footer {
+	font-size: 0.5em;
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+
